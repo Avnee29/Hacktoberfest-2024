@@ -1,0 +1,21 @@
+How to Create and Manipulate a Matrix in Python?
+In Python, matrices can be created and manipulated using lists of lists or using libraries such as NumPy for more efficient and convenient matrix operations.
+
+
+Creating a Matrix with Lists:
+
+
+# Creating a matrix using nested lists
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+Manipulating a Matrix:
+
+
+# Accessing elements
+element = matrix[1][2]  # Accessing the element at row 1, column 2 (6)
+
+# Modifying elements
+matrix[2][1] = 10  # Setting the element at row 2, column 1 to 10
